@@ -20,7 +20,7 @@ const Book = () => {
             ))}
     
           </div>
-        </section>
+      </section>
   )
 }
 
