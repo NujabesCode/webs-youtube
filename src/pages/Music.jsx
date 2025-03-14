@@ -15,7 +15,7 @@ const Music = () => {
                       {musicText.map((music, key)=>(
                           <div className='music' key={key}>
                             <div className='music__img play__icon'>
-                              <Link to={`/channel/${music.channelId}`}>
+                              <Link to={`${music.channelId}`}>
                                   <img src={music.img} alt={music.name}/>
                               </Link>
                             </div>
