@@ -1,13 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { musicText } from '../../data/music'
 import { Link } from 'react-router-dom'
 
-const Music = () => {
+
+
+const Music = ({videos, title, id}) => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false)
+    },500);
+  },[]);
+
+  const musicClass = loading ? 'isLoading' : 'isLoaded'
+
   return (
-    <section id='music'>
-        <h2>😊 추천 음악을 소개합니다.</h2>
+    <section id={id} className={musicClass}>
+        <h2>{title}</h2>
         <div className='music__inner overflow'>
-          {musicText.map((music, key)=>(
+          {videos.map((music, key)=>(
               <div className='music' key={key}>
                 <div className='music__img play__icon'>
                   <Link to={`/channel/${music.channelId}`}>
