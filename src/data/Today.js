@@ -16,7 +16,7 @@ export const todayText =[
         author : "1 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "1 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },    
     {
         img: todayView02,
@@ -25,7 +25,7 @@ export const todayText =[
         author : "2 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "2 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
     {
         img: todayView03,
@@ -34,7 +34,7 @@ export const todayText =[
         author : "3 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "3 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
     {
         img: todayView04,
@@ -43,7 +43,7 @@ export const todayText =[
         author : "4 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "4 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
     {
         img: todayView05,
@@ -52,7 +52,7 @@ export const todayText =[
         author : "5 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "5 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
     {
         img: todayView06,
@@ -61,7 +61,7 @@ export const todayText =[
         author : "6 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "6 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
     {
         img: todayView07,
@@ -70,7 +70,7 @@ export const todayText =[
         author : "7 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "7 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
     {
         img: todayView08,
@@ -79,7 +79,7 @@ export const todayText =[
         author : "8 PGH",
         channelId: "UCMc4EmuDxnHPc6pgGW-QWvQ",
         date : "8 2025.03.13",
-        page : "/yotube",
+        page : "/youtube",
     },
 
 ]
